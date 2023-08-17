@@ -5,7 +5,7 @@ numero = int(input())
 
 esPrimo = True
 i = 2
-while i < numero:
+while i < numero and esPrimo == True:
     if numero % i == 0:
         esPrimo = False
     i += 1
